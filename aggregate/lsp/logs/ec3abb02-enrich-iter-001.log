@@ -1,0 +1,17 @@
+[2026-11-21T23:33:44Z] === ENRICH ITERATION 1 START | repo=Actyx/sync_wrapper sha=ec3abb02 ===
+[2026-11-21T23:33:44Z] [iter=1] PHASE START: enrich repo=Actyx/sync_wrapper sha=ec3abb02 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ec3abb02-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ec3abb02497d85698d805ea8bcb5d2ef97b81303.nq.gz
+[2026-11-21T23:33:46Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-21T23:33:46Z] [iter=1] AST store loaded triples=7093 load_secs=0 mem_mb=93 MB
+[2026-11-21T23:33:46Z] [iter=1] Step 2: Finding LSP targets mem_mb=93 MB
+[2026-11-21T23:33:46Z] [iter=1] LSP targets found call_sites=16 imports=0 extends=0 implements=5 secs=0
+[2026-11-21T23:33:46Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=93 MB
+[2026-11-21T23:33:46Z] [iter=1] Position index built positions=540 nodes_with_types=575 secs=0 mem_mb=93 MB
+[2026-11-21T23:33:46Z] [iter=1] Step 3: Starting LSP resolution mem_mb=93 MB already_completed_types=[] already_completed_files=0
+[2026-11-21T23:33:46Z] [iter=1] Resolving target type target_type=call_site count=16
+[2026-11-21T23:34:14Z] [iter=1] Target type resolved target_type=call_site resolved=10 errors=0 secs=27 mem_mb=93 MB
+[2026-11-21T23:34:14Z] [iter=1] Resolving target type target_type=implements_clause count=5
+[2026-11-21T23:34:14Z] [iter=1] HEARTBEAT target_type=implements_clause elapsed_min=0.5 files_done=0 resolved=0 errors=0 current=src/lib.rs
+[2026-11-21T23:34:19Z] [iter=1] Target type resolved target_type=implements_clause resolved=3 errors=0 secs=6 mem_mb=93 MB
+[2026-11-21T23:34:25Z] [iter=1] Step 5: Writing final enrichment file triples=294
+[2026-11-21T23:34:25Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/ec3abb02497d85698d805ea8bcb5d2ef97b81303.nq.gz size_kb=3
+[2026-11-21T23:34:25Z] [iter=1] PHASE END: enrich elapsed_s=41 elapsed_min=0.7 total_triples=294

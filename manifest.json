@@ -17,6 +17,38 @@
       ],
       "ast": [
         "aggregate/ast/ec3abb02497d85698d805ea8bcb5d2ef97b81303/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/ec3abb02497d85698d805ea8bcb5d2ef97b81303.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "futures-core",
+          "ecosystem": "CARGO",
+          "version": "0.3",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "pin-project-lite",
+          "ecosystem": "CARGO",
+          "version": "0.2.7",
+          "githubOrg": "taiki-e",
+          "githubRepo": "pin-project-lite",
+          "githubCommit": "d21bbea70a60718cc2ff67dc0e6a4049126ff9e6",
+          "githubTag": "v0.2.7",
+          "githubUrl": "https://github.com/taiki-e/pin-project-lite",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "futures",
+          "ecosystem": "CARGO",
+          "version": "0.3",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
