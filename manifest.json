@@ -1,0 +1,25 @@
+{
+  "manifest_version": "1.0",
+  "org": "Actyx",
+  "repo": "sync_wrapper",
+  "versions": [
+    {
+      "commit": "ec3abb02497d85698d805ea8bcb5d2ef97b81303",
+      "parsed_at": "2026-11-21T23:28:51.119596+00:00",
+      "tag": "v1.0.1",
+      "filetree": "filetree/ec3abb02497d85698d805ea8bcb5d2ef97b81303.nq.gz",
+      "blobs": [
+        "blob/2800d9a7328909c83b92fc099906778a19f01de1.nq.gz",
+        "blob/f433b1a53f5b830a205fd2df78e2b34974656c7b.nq.gz",
+        "blob/20261c93727c58b369ba41cb2ca047c4a9b8eaed.nq.gz",
+        "blob/c0209a15de8d8d99c949e105b8c5390793890655.nq.gz",
+        "blob/96ef6c0b944e24fc22f51f18136cd62ffd5b0b8f.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
