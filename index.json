@@ -1,0 +1,11 @@
+{
+  "org": "Actyx",
+  "repo": "sync_wrapper",
+  "versions": [
+    {
+      "commit": "ec3abb02497d85698d805ea8bcb5d2ef97b81303",
+      "tag": "v1.0.1",
+      "parsed_at": "2026-11-21T23:38:26.088236+00:00"
+    }
+  ]
+}
